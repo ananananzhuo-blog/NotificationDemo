@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_showsimple_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="展示简单通知" />
+    <Button
+        android:id="@+id/btn_notification_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建点击可跳转页面的通知" />
+    <Button
+        android:id="@+id/btn_addbutton_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建带按钮的通知" />
+    <Button
+        android:id="@+id/btn_progressnotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建带进度的通知" />
+    <Button
+        android:id="@+id/btn_custom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置通知的自定义布局" />
+</LinearLayout>
